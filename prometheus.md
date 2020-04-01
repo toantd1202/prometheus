@@ -56,7 +56,7 @@ Các `time series` được định danh duy nhất bằng `_metric name_` và `
 
   
 
-** Metric name** Tên số liệu chỉ định tính năng chung của hệ thống được đo. Ví dụ: http_requests_total - Tổng số yêu cầu HTTP nhận được
+**Metric name** Tên số liệu chỉ định tính năng chung của hệ thống được đo. Ví dụ: http_requests_total - Tổng số yêu cầu HTTP nhận được
 
 **Lables** Sử dụng nhãn để phân biệt các đặc điểm của thứ đang được đo:
 
