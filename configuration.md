@@ -1,7 +1,9 @@
 
 # Cài đặt Prometheus 
 + #### Tạo file prometheus.yml
+
 ![](https://github.com/toantd1202/buoc1/blob/master/Screenshot%20from%202020-04-01%2011-19-50.png?raw=true)
+
 Phần `global` là cấu hình chung cho tất cả các `scrape_configs`, các config bên trong mỗi job scrape sẽ được ưu tiên dùng hơn cái `global` nếu có trùng lặp. Theo cấu hình trên, prometheus sẽ có một `target` để pull `metrics` về có tên là `prometheus`, tự động `scrape` mỗi 30s tới service đang chạy ở `localhost:9090`.
 + #### Thiết lập Prometheus với docker
 cấu hình để chạy prometheus lên với docker:
@@ -57,9 +59,6 @@ Theo dõi các số liệu về hạ tầng, bao gồm CPU, memory, disk usage c
 ```
 global:
   scrape_interval: 15s
-  scrape_timeout: 10s
-  evaluation_interval: 15s
-
 scrape_configs:
   - job_name: prometheus
     scrape_interval: 30s
