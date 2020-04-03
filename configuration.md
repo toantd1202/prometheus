@@ -166,3 +166,4 @@ Recording và alerting rules tồn tại trong một nhóm quy tắc. Các quy t
 ![](https://github.com/toantd1202/buoc1/blob/master/Screenshot%20from%202020-04-01%2010-00-55.png?raw=true)
 
 ![](https://github.com/toantd1202/buoc1/blob/master/Screenshot%20from%202020-04-02%2010-09-20.png?raw=true)
+
